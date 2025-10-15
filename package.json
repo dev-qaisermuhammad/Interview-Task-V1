@@ -1,0 +1,36 @@
+{
+  "name": "interview-task",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^2.0.1",
+    "@googlemaps/react-wrapper": "^1.2.0",
+    "@radix-ui/themes": "^3.2.1",
+    "@turf/turf": "^7.2.0",
+    "@types/leaflet": "^1.9.21",
+    "ag-grid-community": "^34.2.0",
+    "ag-grid-enterprise": "^34.2.0",
+    "ag-grid-react": "^34.2.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.545.0",
+    "next": "15.5.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-leaflet": "^5.0.0",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
